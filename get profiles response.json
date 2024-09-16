@@ -1,0 +1,1353 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 429516716,
+            "userId": 1986981,
+            "teamId": 1933738,
+            "name": "test-selenium",
+            "platform": "windows",
+            "browserType": "anty",
+            "proxyId": 0,
+            "mainWebsite": "",
+            "useragent": {
+                "mode": "manual",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+            },
+            "webrtc": {
+                "mode": "altered",
+                "ipAddress": null
+            },
+            "canvas": {
+                "mode": "real"
+            },
+            "webgl": {
+                "mode": "real"
+            },
+            "webglInfo": {
+                "mode": "manual",
+                "vendor": "Google Inc. (AMD)",
+                "renderer": "ANGLE (AMD, AMD Radeon(TM) R9 290X Direct3D11 vs_5_0 ps_5_0, D3D11)"
+            },
+            "clientRect": {
+                "mode": "real"
+            },
+            "notes": {
+                "content": null,
+                "color": "blue",
+                "style": "text",
+                "icon": null
+            },
+            "timezone": {
+                "mode": "auto",
+                "value": null
+            },
+            "locale": {
+                "mode": "auto",
+                "value": null
+            },
+            "totalSessionDuration": 0,
+            "userFields": "",
+            "geolocation": {
+                "mode": "auto",
+                "latitude": null,
+                "longitude": null,
+                "accuracy": null
+            },
+            "doNotTrack": false,
+            "args": [],
+            "cpu": {
+                "mode": "manual",
+                "value": 4
+            },
+            "memory": {
+                "mode": "manual",
+                "value": 8
+            },
+            "screen": {
+                "mode": "real",
+                "resolution": null
+            },
+            "ports": {
+                "mode": "protect",
+                "blacklist": "3389,5900,5800,7070,6568,5938"
+            },
+            "tabs": "",
+            "created_at": "2024-07-30 12:39:41",
+            "updated_at": "2024-07-30 15:39:41",
+            "deleted_at": "",
+            "platformName": "Win32",
+            "cpuArchitecture": "amd64",
+            "osVersion": 10,
+            "screenWidth": "",
+            "screenHeight": "",
+            "connectionDownlink": 10,
+            "connectionEffectiveType": "4g",
+            "connectionRtt": 50,
+            "connectionSaveData": 0,
+            "vendorSub": "",
+            "productSub": 20030107,
+            "vendor": "Google Inc.",
+            "product": "Gecko",
+            "appCodeName": "Mozilla",
+            "mediaDevices": {
+                "mode": "real",
+                "audioInputs": null,
+                "videoInputs": null,
+                "audioOutputs": null
+            },
+            "datadirHash": null,
+            "cookiesHash": null,
+            "storagePath": "",
+            "platformVersion": "15.0.0",
+            "extensionsNewNaming": 1,
+            "archived": 0,
+            "webgl2Maximum": "",
+            "login": "",
+            "password": "",
+            "sortingName": "test-selenium",
+            "addedSortingName": 0,
+            "access": {
+                "view": 1,
+                "update": 1,
+                "delete": 1,
+                "share": 1,
+                "usage": 1
+            },
+            "transfer": 0,
+            "webgpu": {
+                "mode": "manual",
+                "value": "\"{\\\"limits\\\":{\\\"maxBindGroups\\\":4,\\\"maxBindingsPerBindGroup\\\":640,\\\"maxBufferSize\\\":2147483648,\\\"maxColorAttachmentBytesPerSample\\\":32,\\\"maxColorAttachments\\\":8,\\\"maxComputeInvocationsPerWorkgroup\\\":1024,\\\"maxComputeWorkgroupSizeX\\\":1024,\\\"maxComputeWorkgroupSizeY\\\":1024,\\\"maxComputeWorkgroupSizeZ\\\":64,\\\"maxComputeWorkgroupStorageSize\\\":32768,\\\"maxComputeWorkgroupsPerDimension\\\":65535,\\\"maxDynamicStorageBuffersPerPipelineLayout\\\":8,\\\"maxDynamicUniformBuffersPerPipelineLayout\\\":10,\\\"maxInterStageShaderComponents\\\":60,\\\"maxInterStageShaderVariables\\\":16,\\\"maxSampledTexturesPerShaderStage\\\":16,\\\"maxSamplersPerShaderStage\\\":16,\\\"maxStorageBufferBindingSize\\\":2147483647,\\\"maxStorageBuffersPerShaderStage\\\":8,\\\"maxStorageTexturesPerShaderStage\\\":8,\\\"maxTextureArrayLayers\\\":256,\\\"maxTextureDimension1D\\\":8192,\\\"maxTextureDimension2D\\\":8192,\\\"maxTextureDimension3D\\\":2048,\\\"maxUniformBufferBindingSize\\\":65536,\\\"maxUniformBuffersPerShaderStage\\\":12,\\\"maxVertexAttributes\\\":16,\\\"maxVertexBufferArrayStride\\\":2048,\\\"maxVertexBuffers\\\":8,\\\"minStorageBufferOffsetAlignment\\\":256,\\\"minUniformBufferOffsetAlignment\\\":256},\\\"getPreferredCanvasFormat\\\":\\\"bgra8unorm\\\",\\\"info\\\":{\\\"architecture\\\":\\\"gcn-2\\\",\\\"description\\\":\\\"\\\",\\\"device\\\":\\\"\\\",\\\"vendor\\\":\\\"amd\\\"}}\""
+            },
+            "recoverCount": "",
+            "lastStartTime": "",
+            "sorting_name": "test-selenium",
+            "macAddress": {
+                "mode": "off",
+                "value": null
+            },
+            "deviceName": {
+                "mode": "off",
+                "value": null
+            },
+            "tags": [],
+            "tags_with_separator": [],
+            "pinned": false,
+            "folder": ""
+        },
+        {
+            "id": 424041853,
+            "userId": 1986981,
+            "teamId": 1933738,
+            "name": "togle murat",
+            "platform": "windows",
+            "browserType": "anty",
+            "proxyId": 368788657,
+            "mainWebsite": "",
+            "useragent": {
+                "mode": "manual",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+            },
+            "webrtc": {
+                "mode": "altered",
+                "ipAddress": null
+            },
+            "canvas": {
+                "mode": "real"
+            },
+            "webgl": {
+                "mode": "real"
+            },
+            "webglInfo": {
+                "mode": "manual",
+                "vendor": "Google Inc. (AMD)",
+                "renderer": "ANGLE (AMD, AMD Radeon(TM) Graphics Direct3D11 vs_5_0 ps_5_0, D3D11)",
+                "webgl2Maximum": "{\"UNIFORM_BUFFER_OFFSET_ALIGNMENT\":256,\"MAX_TEXTURE_SIZE\":16384,\"MAX_VIEWPORT_DIMS\":[32767,32767],\"MAX_VERTEX_ATTRIBS\":16,\"MAX_VERTEX_UNIFORM_VECTORS\":4096,\"MAX_VARYING_VECTORS\":30,\"MAX_COMBINED_TEXTURE_IMAGE_UNITS\":32,\"MAX_VERTEX_TEXTURE_IMAGE_UNITS\":16,\"MAX_TEXTURE_IMAGE_UNITS\":16,\"MAX_FRAGMENT_UNIFORM_VECTORS\":1024,\"MAX_CUBE_MAP_TEXTURE_SIZE\":16384,\"MAX_RENDERBUFFER_SIZE\":16384,\"MAX_3D_TEXTURE_SIZE\":2048,\"MAX_ELEMENTS_VERTICES\":2147483647,\"MAX_ELEMENTS_INDICES\":2147483647,\"MAX_TEXTURE_LOD_BIAS\":2,\"MAX_DRAW_BUFFERS\":8,\"MAX_FRAGMENT_UNIFORM_COMPONENTS\":4096,\"MAX_VERTEX_UNIFORM_COMPONENTS\":16384,\"MAX_ARRAY_TEXTURE_LAYERS\":2048,\"MIN_PROGRAM_TEXEL_OFFSET\":-8,\"MAX_PROGRAM_TEXEL_OFFSET\":7,\"MAX_VARYING_COMPONENTS\":120,\"MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS\":4,\"MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS\":120,\"MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS\":4,\"MAX_COLOR_ATTACHMENTS\":8,\"MAX_SAMPLES\":8,\"MAX_VERTEX_UNIFORM_BLOCKS\":12,\"MAX_FRAGMENT_UNIFORM_BLOCKS\":12,\"MAX_COMBINED_UNIFORM_BLOCKS\":24,\"MAX_UNIFORM_BUFFER_BINDINGS\":24,\"MAX_UNIFORM_BLOCK_SIZE\":65536,\"MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS\":212992,\"MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS\":200704,\"MAX_VERTEX_OUTPUT_COMPONENTS\":120,\"MAX_FRAGMENT_INPUT_COMPONENTS\":120,\"MAX_ELEMENT_INDEX\":4294967294}"
+            },
+            "clientRect": {
+                "mode": "real"
+            },
+            "notes": {
+                "content": null,
+                "color": "blue",
+                "style": "text",
+                "icon": "info"
+            },
+            "timezone": {
+                "mode": "auto",
+                "value": null
+            },
+            "locale": {
+                "mode": "auto",
+                "value": null
+            },
+            "totalSessionDuration": 17129,
+            "userFields": "",
+            "geolocation": {
+                "mode": "auto",
+                "latitude": null,
+                "longitude": null,
+                "accuracy": null
+            },
+            "doNotTrack": false,
+            "args": [],
+            "cpu": {
+                "mode": "manual",
+                "value": 12
+            },
+            "memory": {
+                "mode": "manual",
+                "value": 8
+            },
+            "screen": {
+                "mode": "real",
+                "resolution": null
+            },
+            "ports": {
+                "mode": "protect",
+                "blacklist": "3389,5900,5800,7070,6568,5938"
+            },
+            "tabs": "",
+            "created_at": "2024-07-21 12:13:51",
+            "updated_at": "2024-07-21 15:13:51",
+            "deleted_at": "",
+            "platformName": "Win32",
+            "cpuArchitecture": "amd64",
+            "osVersion": 10,
+            "screenWidth": "",
+            "screenHeight": "",
+            "connectionDownlink": 10,
+            "connectionEffectiveType": "4g",
+            "connectionRtt": 150,
+            "connectionSaveData": 0,
+            "vendorSub": "",
+            "productSub": 20030107,
+            "vendor": "Google Inc.",
+            "product": "Gecko",
+            "appCodeName": "Mozilla",
+            "mediaDevices": {
+                "mode": "real",
+                "audioInputs": null,
+                "videoInputs": null,
+                "audioOutputs": null
+            },
+            "datadirHash": null,
+            "cookiesHash": null,
+            "storagePath": "",
+            "platformVersion": "10.0.0",
+            "extensionsNewNaming": 1,
+            "archived": 0,
+            "webgl2Maximum": "",
+            "login": "",
+            "password": "",
+            "sortingName": "togle murat",
+            "addedSortingName": 0,
+            "access": {
+                "view": 1,
+                "update": 1,
+                "delete": 1,
+                "share": 1,
+                "usage": 1
+            },
+            "transfer": 0,
+            "webgpu": {
+                "mode": "manual",
+                "value": "\"{\\\"limits\\\":{\\\"maxBindGroups\\\":4,\\\"maxBindingsPerBindGroup\\\":640,\\\"maxBufferSize\\\":2147483648,\\\"maxColorAttachmentBytesPerSample\\\":32,\\\"maxColorAttachments\\\":8,\\\"maxComputeInvocationsPerWorkgroup\\\":1024,\\\"maxComputeWorkgroupSizeX\\\":1024,\\\"maxComputeWorkgroupSizeY\\\":1024,\\\"maxComputeWorkgroupSizeZ\\\":64,\\\"maxComputeWorkgroupStorageSize\\\":32768,\\\"maxComputeWorkgroupsPerDimension\\\":65535,\\\"maxDynamicStorageBuffersPerPipelineLayout\\\":8,\\\"maxDynamicUniformBuffersPerPipelineLayout\\\":10,\\\"maxInterStageShaderComponents\\\":60,\\\"maxInterStageShaderVariables\\\":16,\\\"maxSampledTexturesPerShaderStage\\\":16,\\\"maxSamplersPerShaderStage\\\":16,\\\"maxStorageBufferBindingSize\\\":2147483647,\\\"maxStorageBuffersPerShaderStage\\\":8,\\\"maxStorageTexturesPerShaderStage\\\":8,\\\"maxTextureArrayLayers\\\":256,\\\"maxTextureDimension1D\\\":8192,\\\"maxTextureDimension2D\\\":8192,\\\"maxTextureDimension3D\\\":2048,\\\"maxUniformBufferBindingSize\\\":65536,\\\"maxUniformBuffersPerShaderStage\\\":12,\\\"maxVertexAttributes\\\":16,\\\"maxVertexBufferArrayStride\\\":2048,\\\"maxVertexBuffers\\\":8,\\\"minStorageBufferOffsetAlignment\\\":256,\\\"minUniformBufferOffsetAlignment\\\":256},\\\"getPreferredCanvasFormat\\\":\\\"bgra8unorm\\\",\\\"info\\\":{\\\"architecture\\\":\\\"gcn-5\\\",\\\"description\\\":\\\"\\\",\\\"device\\\":\\\"\\\",\\\"vendor\\\":\\\"amd\\\"}}\""
+            },
+            "recoverCount": "",
+            "lastStartTime": "2024-07-30 11:43:11",
+            "proxy": {
+                "id": 368788657,
+                "name": "togle"
+            },
+            "sorting_name": "togle murat",
+            "macAddress": {
+                "mode": "off",
+                "value": null
+            },
+            "deviceName": {
+                "mode": "off",
+                "value": null
+            },
+            "tags": [],
+            "tags_with_separator": [],
+            "pinned": false,
+            "folder": "",
+            "running": true,
+            "runningUsers": [
+                {
+                    "id": 1986981,
+                    "username": "tgforspam66543@proton.me",
+                    "displayName": "",
+                    "avatar": null,
+                    "devices": [
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 408833186,
+            "userId": 1986981,
+            "teamId": 1933738,
+            "name": "canada test",
+            "platform": "windows",
+            "browserType": "anty",
+            "proxyId": 357541200,
+            "mainWebsite": "",
+            "useragent": {
+                "mode": "manual",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+            },
+            "webrtc": {
+                "mode": "altered",
+                "ipAddress": null
+            },
+            "canvas": {
+                "mode": "real"
+            },
+            "webgl": {
+                "mode": "real"
+            },
+            "webglInfo": {
+                "mode": "manual",
+                "vendor": "Google Inc. (NVIDIA)",
+                "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 Direct3D11 vs_5_0 ps_5_0, D3D11)"
+            },
+            "clientRect": {
+                "mode": "real"
+            },
+            "notes": {
+                "content": null,
+                "color": "blue",
+                "style": "text",
+                "icon": null
+            },
+            "timezone": {
+                "mode": "auto",
+                "value": null
+            },
+            "locale": {
+                "mode": "auto",
+                "value": null
+            },
+            "totalSessionDuration": 85884,
+            "userFields": "",
+            "geolocation": {
+                "mode": "auto",
+                "latitude": null,
+                "longitude": null,
+                "accuracy": null
+            },
+            "doNotTrack": false,
+            "args": [],
+            "cpu": {
+                "mode": "manual",
+                "value": 12
+            },
+            "memory": {
+                "mode": "manual",
+                "value": 8
+            },
+            "screen": {
+                "mode": "real",
+                "resolution": null
+            },
+            "ports": {
+                "mode": "protect",
+                "blacklist": "3389,5900,5800,7070,6568,5938"
+            },
+            "tabs": "",
+            "created_at": "2024-06-26 19:09:06",
+            "updated_at": "2024-06-26 22:09:55",
+            "deleted_at": "",
+            "platformName": "Win32",
+            "cpuArchitecture": "amd64",
+            "osVersion": 10,
+            "screenWidth": "",
+            "screenHeight": "",
+            "connectionDownlink": 10,
+            "connectionEffectiveType": "4g",
+            "connectionRtt": 0,
+            "connectionSaveData": 0,
+            "vendorSub": "",
+            "productSub": 20030107,
+            "vendor": "Google Inc.",
+            "product": "Gecko",
+            "appCodeName": "Mozilla",
+            "mediaDevices": {
+                "mode": "real",
+                "audioInputs": null,
+                "videoInputs": null,
+                "audioOutputs": null
+            },
+            "datadirHash": null,
+            "cookiesHash": null,
+            "storagePath": "",
+            "platformVersion": "15.0.0",
+            "extensionsNewNaming": 1,
+            "archived": 0,
+            "webgl2Maximum": "",
+            "login": "",
+            "password": "",
+            "sortingName": "canada test",
+            "addedSortingName": 0,
+            "access": {
+                "view": 1,
+                "update": 1,
+                "delete": 1,
+                "share": 1,
+                "usage": 1
+            },
+            "transfer": 0,
+            "webgpu": {
+                "mode": "manual",
+                "value": "\"{\\\"limits\\\":{\\\"maxBindGroups\\\":4,\\\"maxBindingsPerBindGroup\\\":1000,\\\"maxBufferSize\\\":2147483648,\\\"maxColorAttachmentBytesPerSample\\\":32,\\\"maxColorAttachments\\\":8,\\\"maxComputeInvocationsPerWorkgroup\\\":1024,\\\"maxComputeWorkgroupSizeX\\\":1024,\\\"maxComputeWorkgroupSizeY\\\":1024,\\\"maxComputeWorkgroupSizeZ\\\":64,\\\"maxComputeWorkgroupStorageSize\\\":32768,\\\"maxComputeWorkgroupsPerDimension\\\":65535,\\\"maxDynamicStorageBuffersPerPipelineLayout\\\":8,\\\"maxDynamicUniformBuffersPerPipelineLayout\\\":10,\\\"maxInterStageShaderComponents\\\":60,\\\"maxInterStageShaderVariables\\\":16,\\\"maxSampledTexturesPerShaderStage\\\":16,\\\"maxSamplersPerShaderStage\\\":16,\\\"maxStorageBufferBindingSize\\\":2147483644,\\\"maxStorageBuffersPerShaderStage\\\":8,\\\"maxStorageTexturesPerShaderStage\\\":8,\\\"maxTextureArrayLayers\\\":256,\\\"maxTextureDimension1D\\\":8192,\\\"maxTextureDimension2D\\\":8192,\\\"maxTextureDimension3D\\\":2048,\\\"maxUniformBufferBindingSize\\\":65536,\\\"maxUniformBuffersPerShaderStage\\\":12,\\\"maxVertexAttributes\\\":16,\\\"maxVertexBufferArrayStride\\\":2048,\\\"maxVertexBuffers\\\":8,\\\"minStorageBufferOffsetAlignment\\\":256,\\\"minUniformBufferOffsetAlignment\\\":256},\\\"getPreferredCanvasFormat\\\":\\\"bgra8unorm\\\",\\\"info\\\":{\\\"architecture\\\":\\\"turing\\\",\\\"description\\\":\\\"\\\",\\\"device\\\":\\\"\\\",\\\"vendor\\\":\\\"nvidia\\\"}}\""
+            },
+            "recoverCount": "",
+            "lastStartTime": "2024-06-26 19:09:57",
+            "proxy": {
+                "id": 357541200,
+                "name": "MobResCanada - Brampton",
+                "status": 1,
+                "ip": "70.30.50.174",
+                "country": "CA"
+            },
+            "sorting_name": "canada test",
+            "macAddress": {
+                "mode": "off",
+                "value": null
+            },
+            "deviceName": {
+                "mode": "off",
+                "value": null
+            },
+            "tags": [],
+            "tags_with_separator": [],
+            "pinned": false,
+            "folder": ""
+        },
+        {
+            "id": 408059938,
+            "userId": 1986981,
+            "teamId": 1933738,
+            "name": "wise",
+            "platform": "windows",
+            "browserType": "anty",
+            "proxyId": 356968942,
+            "mainWebsite": "",
+            "useragent": {
+                "mode": "manual",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+            },
+            "webrtc": {
+                "mode": "altered",
+                "ipAddress": null
+            },
+            "canvas": {
+                "mode": "real"
+            },
+            "webgl": {
+                "mode": "real"
+            },
+            "webglInfo": {
+                "mode": "manual",
+                "vendor": "Google Inc. (AMD)",
+                "renderer": "ANGLE (AMD, AMD Radeon(TM) Graphics Direct3D11 vs_5_0 ps_5_0, D3D11)"
+            },
+            "clientRect": {
+                "mode": "real"
+            },
+            "notes": {
+                "content": null,
+                "color": "blue",
+                "style": "text",
+                "icon": null
+            },
+            "timezone": {
+                "mode": "auto",
+                "value": null
+            },
+            "locale": {
+                "mode": "auto",
+                "value": null
+            },
+            "totalSessionDuration": 1527,
+            "userFields": "",
+            "geolocation": {
+                "mode": "auto",
+                "latitude": null,
+                "longitude": null,
+                "accuracy": null
+            },
+            "doNotTrack": false,
+            "args": [],
+            "cpu": {
+                "mode": "manual",
+                "value": 12
+            },
+            "memory": {
+                "mode": "manual",
+                "value": 8
+            },
+            "screen": {
+                "mode": "real",
+                "resolution": null
+            },
+            "ports": {
+                "mode": "protect",
+                "blacklist": "3389,5900,5800,7070,6568,5938"
+            },
+            "tabs": "",
+            "created_at": "2024-06-25 16:33:42",
+            "updated_at": "2024-06-25 20:03:29",
+            "deleted_at": "",
+            "platformName": "Win32",
+            "cpuArchitecture": "amd64",
+            "osVersion": 10,
+            "screenWidth": "",
+            "screenHeight": "",
+            "connectionDownlink": 10,
+            "connectionEffectiveType": "4g",
+            "connectionRtt": 50,
+            "connectionSaveData": 0,
+            "vendorSub": "",
+            "productSub": 20030107,
+            "vendor": "Google Inc.",
+            "product": "Gecko",
+            "appCodeName": "Mozilla",
+            "mediaDevices": {
+                "mode": "real",
+                "audioInputs": null,
+                "videoInputs": null,
+                "audioOutputs": null
+            },
+            "datadirHash": null,
+            "cookiesHash": null,
+            "storagePath": "",
+            "platformVersion": "10.0.0",
+            "extensionsNewNaming": 1,
+            "archived": 0,
+            "webgl2Maximum": "",
+            "login": "",
+            "password": "",
+            "sortingName": "wise",
+            "addedSortingName": 0,
+            "access": {
+                "view": 1,
+                "update": 1,
+                "delete": 1,
+                "share": 1,
+                "usage": 1
+            },
+            "transfer": 0,
+            "webgpu": {
+                "mode": "manual",
+                "value": "\"{\\\"limits\\\":{\\\"maxBindGroups\\\":4,\\\"maxBindingsPerBindGroup\\\":640,\\\"maxBufferSize\\\":2147483648,\\\"maxColorAttachmentBytesPerSample\\\":32,\\\"maxColorAttachments\\\":8,\\\"maxComputeInvocationsPerWorkgroup\\\":1024,\\\"maxComputeWorkgroupSizeX\\\":1024,\\\"maxComputeWorkgroupSizeY\\\":1024,\\\"maxComputeWorkgroupSizeZ\\\":64,\\\"maxComputeWorkgroupStorageSize\\\":32768,\\\"maxComputeWorkgroupsPerDimension\\\":65535,\\\"maxDynamicStorageBuffersPerPipelineLayout\\\":8,\\\"maxDynamicUniformBuffersPerPipelineLayout\\\":10,\\\"maxInterStageShaderComponents\\\":60,\\\"maxInterStageShaderVariables\\\":16,\\\"maxSampledTexturesPerShaderStage\\\":16,\\\"maxSamplersPerShaderStage\\\":16,\\\"maxStorageBufferBindingSize\\\":2147483647,\\\"maxStorageBuffersPerShaderStage\\\":8,\\\"maxStorageTexturesPerShaderStage\\\":8,\\\"maxTextureArrayLayers\\\":256,\\\"maxTextureDimension1D\\\":8192,\\\"maxTextureDimension2D\\\":8192,\\\"maxTextureDimension3D\\\":2048,\\\"maxUniformBufferBindingSize\\\":65536,\\\"maxUniformBuffersPerShaderStage\\\":12,\\\"maxVertexAttributes\\\":16,\\\"maxVertexBufferArrayStride\\\":2048,\\\"maxVertexBuffers\\\":8,\\\"minStorageBufferOffsetAlignment\\\":256,\\\"minUniformBufferOffsetAlignment\\\":256},\\\"getPreferredCanvasFormat\\\":\\\"bgra8unorm\\\",\\\"info\\\":{\\\"architecture\\\":\\\"gcn-5\\\",\\\"description\\\":\\\"\\\",\\\"device\\\":\\\"\\\",\\\"vendor\\\":\\\"amd\\\"}}\""
+            },
+            "recoverCount": "",
+            "lastStartTime": "",
+            "proxy": {
+                "id": 356968942,
+                "name": "CorpUnited States - New York",
+                "status": 1,
+                "ip": "216.39.249.230",
+                "country": "US"
+            },
+            "sorting_name": "wise",
+            "macAddress": {
+                "mode": "off",
+                "value": null
+            },
+            "deviceName": {
+                "mode": "off",
+                "value": null
+            },
+            "tags": [],
+            "tags_with_separator": [],
+            "pinned": false,
+            "folder": ""
+        },
+        {
+            "id": 404471808,
+            "userId": 1986981,
+            "teamId": 1933738,
+            "name": "CA$800 | Cameron A Collins",
+            "platform": "macos",
+            "browserType": "anty",
+            "proxyId": 356344503,
+            "mainWebsite": "google",
+            "useragent": {
+                "mode": "manual",
+                "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+            },
+            "webrtc": {
+                "mode": "altered",
+                "ipAddress": null
+            },
+            "canvas": {
+                "mode": "off"
+            },
+            "webgl": {
+                "mode": "off"
+            },
+            "webglInfo": {
+                "mode": "real",
+                "vendor": "Google Inc. (Intel Inc.)",
+                "renderer": "ANGLE (Intel Inc., Intel HD Graphics 4000 OpenGL Engine, OpenGL 4.1)",
+                "webgl2Maximum": "{\"UNIFORM_BUFFER_OFFSET_ALIGNMENT\":256,\"MAX_TEXTURE_SIZE\":16384,\"MAX_VIEWPORT_DIMS\":[16384,16384],\"MAX_VERTEX_ATTRIBS\":16,\"MAX_VERTEX_UNIFORM_VECTORS\":1024,\"MAX_VARYING_VECTORS\":15,\"MAX_COMBINED_TEXTURE_IMAGE_UNITS\":32,\"MAX_VERTEX_TEXTURE_IMAGE_UNITS\":16,\"MAX_TEXTURE_IMAGE_UNITS\":16,\"MAX_FRAGMENT_UNIFORM_VECTORS\":1024,\"MAX_CUBE_MAP_TEXTURE_SIZE\":16384,\"MAX_RENDERBUFFER_SIZE\":16384,\"MAX_3D_TEXTURE_SIZE\":2048,\"MAX_ELEMENTS_VERTICES\":1048575,\"MAX_ELEMENTS_INDICES\":150000,\"MAX_TEXTURE_LOD_BIAS\":16,\"MAX_DRAW_BUFFERS\":8,\"MAX_FRAGMENT_UNIFORM_COMPONENTS\":4096,\"MAX_VERTEX_UNIFORM_COMPONENTS\":4096,\"MAX_ARRAY_TEXTURE_LAYERS\":2048,\"MIN_PROGRAM_TEXEL_OFFSET\":-8,\"MAX_PROGRAM_TEXEL_OFFSET\":7,\"MAX_VARYING_COMPONENTS\":60,\"MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS\":4,\"MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS\":64,\"MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS\":4,\"MAX_COLOR_ATTACHMENTS\":8,\"MAX_SAMPLES\":4,\"MAX_VERTEX_UNIFORM_BLOCKS\":15,\"MAX_FRAGMENT_UNIFORM_BLOCKS\":15,\"MAX_COMBINED_UNIFORM_BLOCKS\":30,\"MAX_UNIFORM_BUFFER_BINDINGS\":72,\"MAX_UNIFORM_BLOCK_SIZE\":65536,\"MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS\":249856,\"MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS\":249856,\"MAX_VERTEX_OUTPUT_COMPONENTS\":128,\"MAX_FRAGMENT_INPUT_COMPONENTS\":128,\"MAX_ELEMENT_INDEX\":4294967295}"
+            },
+            "clientRect": {
+                "mode": "real"
+            },
+            "notes": {
+                "content": "<p>Login: cc8314496@gmail.com</p><p>Password: Ar9Dei7ri7ah</p><p>Proxy: http://172.105.18.59:11804:modeler_Ww7Ddw:pOemMUhxF5xG</p><p>URL: https://ads.google.com/aw/overview</p>",
+                "color": "green",
+                "style": "text",
+                "icon": null
+            },
+            "timezone": {
+                "mode": "auto",
+                "value": null
+            },
+            "locale": {
+                "mode": "manual",
+                "value": "en_CA"
+            },
+            "totalSessionDuration": 110335,
+            "userFields": "",
+            "geolocation": {
+                "mode": "auto",
+                "latitude": null,
+                "longitude": null,
+                "accuracy": null
+            },
+            "doNotTrack": false,
+            "args": [],
+            "cpu": {
+                "mode": "manual",
+                "value": 8
+            },
+            "memory": {
+                "mode": "manual",
+                "value": 8
+            },
+            "screen": {
+                "mode": "manual",
+                "resolution": "1440x900"
+            },
+            "ports": {
+                "mode": "protect",
+                "blacklist": "3389,5900,5800,7070,6568,5938"
+            },
+            "tabs": [],
+            "created_at": "2024-06-19 23:52:21",
+            "updated_at": "2024-06-24 13:07:29",
+            "deleted_at": "",
+            "platformName": "MacIntel",
+            "cpuArchitecture": "",
+            "osVersion": "10.15.7",
+            "screenWidth": "",
+            "screenHeight": "",
+            "connectionDownlink": "",
+            "connectionEffectiveType": "",
+            "connectionRtt": "",
+            "connectionSaveData": "",
+            "vendorSub": "",
+            "productSub": "",
+            "vendor": "",
+            "product": "",
+            "appCodeName": "",
+            "mediaDevices": {
+                "mode": "real",
+                "audioInputs": null,
+                "videoInputs": null,
+                "audioOutputs": null
+            },
+            "datadirHash": null,
+            "cookiesHash": null,
+            "storagePath": "",
+            "platformVersion": "",
+            "extensionsNewNaming": 1,
+            "archived": 0,
+            "webgl2Maximum": "",
+            "login": "",
+            "password": "",
+            "sortingName": "CA$0000000800 | Cameron A Collins",
+            "addedSortingName": 0,
+            "access": {
+                "view": 1,
+                "update": 1,
+                "delete": 1,
+                "share": 1,
+                "usage": 1
+            },
+            "transfer": 0,
+            "webgpu": {
+                "mode": "off"
+            },
+            "recoverCount": "",
+            "lastStartTime": "2024-07-16 14:49:36",
+            "proxy": {
+                "id": 356344503,
+                "name": "wise",
+                "status": 1,
+                "ip": "2600:3c04:e001:2a3:7a9d:7cb0:974f:20b0",
+                "country": "CA"
+            },
+            "sorting_name": "CA$0000000800 | Cameron A Collins",
+            "macAddress": {
+                "mode": "off",
+                "value": null
+            },
+            "deviceName": {
+                "mode": "off",
+                "value": null
+            },
+            "tags": [
+                "Transfered"
+            ],
+            "tags_with_separator": [
+                "Transfered"
+            ],
+            "pinned": false,
+            "folder": "",
+            "running": true,
+            "runningUsers": [
+                {
+                    "id": 1986981,
+                    "username": "tgforspam66543@proton.me",
+                    "displayName": "",
+                    "avatar": null,
+                    "devices": [
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3",
+                        "WIN-IFT1T2N75Q3"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 258811987,
+            "userId": 1986981,
+            "teamId": 1933738,
+            "name": "A.Yana #8335 - Дарья Калинина",
+            "platform": "windows",
+            "browserType": "anty",
+            "proxyId": 259252903,
+            "mainWebsite": "facebook",
+            "useragent": {
+                "mode": "manual",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+            },
+            "webrtc": {
+                "mode": "altered",
+                "ipAddress": null
+            },
+            "canvas": {
+                "mode": "real"
+            },
+            "webgl": {
+                "mode": "real"
+            },
+            "webglInfo": {
+                "mode": "manual",
+                "vendor": "Google Inc. (AMD)",
+                "renderer": "ANGLE (AMD, ASUS R7 250X Series (0x0000683D) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+            },
+            "clientRect": {
+                "mode": "real"
+            },
+            "notes": {
+                "content": "",
+                "color": "blue",
+                "style": "text",
+                "icon": null
+            },
+            "timezone": {
+                "mode": "auto",
+                "value": null
+            },
+            "locale": {
+                "mode": "auto",
+                "value": null
+            },
+            "totalSessionDuration": 2295,
+            "userFields": "",
+            "geolocation": {
+                "mode": "auto",
+                "latitude": null,
+                "longitude": null
+            },
+            "doNotTrack": false,
+            "args": [],
+            "cpu": {
+                "mode": "manual",
+                "value": 12
+            },
+            "memory": {
+                "mode": "manual",
+                "value": 8
+            },
+            "screen": {
+                "mode": "real",
+                "resolution": null
+            },
+            "ports": {
+                "mode": "protect",
+                "blacklist": "3389,5900,5800,7070,6568,5938"
+            },
+            "tabs": "",
+            "created_at": "2024-01-25 18:12:57",
+            "updated_at": "2024-03-04 22:53:15",
+            "deleted_at": "",
+            "platformName": "",
+            "cpuArchitecture": "",
+            "osVersion": "",
+            "screenWidth": "",
+            "screenHeight": "",
+            "connectionDownlink": 0,
+            "connectionEffectiveType": "",
+            "connectionRtt": 0,
+            "connectionSaveData": 0,
+            "vendorSub": "",
+            "productSub": "",
+            "vendor": "",
+            "product": "",
+            "appCodeName": "",
+            "mediaDevices": {
+                "mode": "real",
+                "audioInputs": null,
+                "videoInputs": null,
+                "audioOutputs": null
+            },
+            "datadirHash": null,
+            "cookiesHash": null,
+            "storagePath": "658abb9678c29a5363439eb5b5c596b4dc8659bca164d5e20ad71605d7ef7ae9/2f139df3c400f39f2cc6dff54b99490c1a03f4714426ad0d4995138909992c8c/2f139df3c400f39f2cc6dff54b99490c1a03f4714426ad0d4995138909992c8c",
+            "platformVersion": "10.0.0",
+            "extensionsNewNaming": 1,
+            "archived": 0,
+            "webgl2Maximum": "",
+            "login": "",
+            "password": "",
+            "sortingName": "A.Yana #0000008335 - Дарья Калинина",
+            "addedSortingName": 1,
+            "access": {
+                "view": 1,
+                "update": 1,
+                "delete": 1,
+                "share": 1,
+                "usage": 1
+            },
+            "transfer": 0,
+            "webgpu": {
+                "mode": "manual",
+                "value": "\"{\\\"limits\\\":{\\\"maxBindGroups\\\":4,\\\"maxBindingsPerBindGroup\\\":1000,\\\"maxBufferSize\\\":2147483648,\\\"maxColorAttachmentBytesPerSample\\\":32,\\\"maxColorAttachments\\\":8,\\\"maxComputeInvocationsPerWorkgroup\\\":1024,\\\"maxComputeWorkgroupSizeX\\\":1024,\\\"maxComputeWorkgroupSizeY\\\":1024,\\\"maxComputeWorkgroupSizeZ\\\":64,\\\"maxComputeWorkgroupStorageSize\\\":32768,\\\"maxComputeWorkgroupsPerDimension\\\":65535,\\\"maxDynamicStorageBuffersPerPipelineLayout\\\":8,\\\"maxDynamicUniformBuffersPerPipelineLayout\\\":10,\\\"maxInterStageShaderComponents\\\":60,\\\"maxInterStageShaderVariables\\\":16,\\\"maxSampledTexturesPerShaderStage\\\":16,\\\"maxSamplersPerShaderStage\\\":16,\\\"maxStorageBufferBindingSize\\\":2147483644,\\\"maxStorageBuffersPerShaderStage\\\":8,\\\"maxStorageTexturesPerShaderStage\\\":8,\\\"maxTextureArrayLayers\\\":256,\\\"maxTextureDimension1D\\\":8192,\\\"maxTextureDimension2D\\\":8192,\\\"maxTextureDimension3D\\\":2048,\\\"maxUniformBufferBindingSize\\\":65536,\\\"maxUniformBuffersPerShaderStage\\\":12,\\\"maxVertexAttributes\\\":16,\\\"maxVertexBufferArrayStride\\\":2048,\\\"maxVertexBuffers\\\":8,\\\"minStorageBufferOffsetAlignment\\\":256,\\\"minUniformBufferOffsetAlignment\\\":256},\\\"getPreferredCanvasFormat\\\":\\\"bgra8unorm\\\",\\\"info\\\":{\\\"architecture\\\":\\\"gcn-1\\\",\\\"description\\\":\\\"\\\",\\\"device\\\":\\\"\\\",\\\"vendor\\\":\\\"amd\\\"}}\""
+            },
+            "recoverCount": "",
+            "lastStartTime": "2024-03-04 19:55:53",
+            "proxy": {
+                "id": 259252903,
+                "name": "Vodafone",
+                "status": 1,
+                "ip": "31.144.181.153",
+                "country": "UA"
+            },
+            "sorting_name": "A.Yana #0000008335 - Дарья Калинина",
+            "macAddress": {
+                "mode": "off",
+                "value": null
+            },
+            "deviceName": {
+                "mode": "off",
+                "value": null
+            },
+            "tags": [
+                "Саморег"
+            ],
+            "tags_with_separator": [
+                "Саморег"
+            ],
+            "pinned": false,
+            "folder": ""
+        },
+        {
+            "id": 258811982,
+            "userId": 1986981,
+            "teamId": 1933738,
+            "name": "A.Yana #8334 - Виктория Балашова",
+            "platform": "windows",
+            "browserType": "anty",
+            "proxyId": 259252903,
+            "mainWebsite": "facebook",
+            "useragent": {
+                "mode": "manual",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+            },
+            "webrtc": {
+                "mode": "altered",
+                "ipAddress": null
+            },
+            "canvas": {
+                "mode": "real"
+            },
+            "webgl": {
+                "mode": "real"
+            },
+            "webglInfo": {
+                "mode": "manual",
+                "vendor": "Google Inc. (AMD)",
+                "renderer": "ANGLE (AMD, AMD Radeon(TM) Vega 8 Graphics (0x000015DD) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+            },
+            "clientRect": {
+                "mode": "real"
+            },
+            "notes": {
+                "content": "<p>бан, реклама не крутилась</p><p></p>",
+                "color": "red",
+                "style": "text",
+                "icon": null
+            },
+            "timezone": {
+                "mode": "auto",
+                "value": null
+            },
+            "locale": {
+                "mode": "auto",
+                "value": null
+            },
+            "totalSessionDuration": 1216,
+            "userFields": "",
+            "geolocation": {
+                "mode": "auto",
+                "latitude": null,
+                "longitude": null
+            },
+            "doNotTrack": false,
+            "args": [],
+            "cpu": {
+                "mode": "manual",
+                "value": 6
+            },
+            "memory": {
+                "mode": "manual",
+                "value": 8
+            },
+            "screen": {
+                "mode": "real",
+                "resolution": null
+            },
+            "ports": {
+                "mode": "protect",
+                "blacklist": "3389,5900,5800,7070,6568,5938"
+            },
+            "tabs": "",
+            "created_at": "2024-01-25 18:12:56",
+            "updated_at": "2024-03-04 23:03:52",
+            "deleted_at": "",
+            "platformName": "",
+            "cpuArchitecture": "",
+            "osVersion": "",
+            "screenWidth": "",
+            "screenHeight": "",
+            "connectionDownlink": 0,
+            "connectionEffectiveType": "",
+            "connectionRtt": 0,
+            "connectionSaveData": 0,
+            "vendorSub": "",
+            "productSub": "",
+            "vendor": "",
+            "product": "",
+            "appCodeName": "",
+            "mediaDevices": {
+                "mode": "real",
+                "audioInputs": null,
+                "videoInputs": null,
+                "audioOutputs": null
+            },
+            "datadirHash": null,
+            "cookiesHash": null,
+            "storagePath": "e32a9909d3f83b0aa503544d6a1c8bc1d5f07b3660283b5152db5fc68c38af29/22c01c64fea350e085961f89371e87c52007604b233959ab421032a6c6c88c13/22c01c64fea350e085961f89371e87c52007604b233959ab421032a6c6c88c13",
+            "platformVersion": "10.0.0",
+            "extensionsNewNaming": 1,
+            "archived": 0,
+            "webgl2Maximum": "",
+            "login": "",
+            "password": "",
+            "sortingName": "A.Yana #0000008334 - Виктория Балашова",
+            "addedSortingName": 1,
+            "access": {
+                "view": 1,
+                "update": 1,
+                "delete": 1,
+                "share": 1,
+                "usage": 1
+            },
+            "transfer": 0,
+            "webgpu": {
+                "mode": "manual",
+                "value": "\"{\\\"limits\\\":{\\\"maxBindGroups\\\":4,\\\"maxBindingsPerBindGroup\\\":1000,\\\"maxBufferSize\\\":2147483648,\\\"maxColorAttachmentBytesPerSample\\\":32,\\\"maxColorAttachments\\\":8,\\\"maxComputeInvocationsPerWorkgroup\\\":1024,\\\"maxComputeWorkgroupSizeX\\\":1024,\\\"maxComputeWorkgroupSizeY\\\":1024,\\\"maxComputeWorkgroupSizeZ\\\":64,\\\"maxComputeWorkgroupStorageSize\\\":32768,\\\"maxComputeWorkgroupsPerDimension\\\":65535,\\\"maxDynamicStorageBuffersPerPipelineLayout\\\":8,\\\"maxDynamicUniformBuffersPerPipelineLayout\\\":10,\\\"maxInterStageShaderComponents\\\":60,\\\"maxInterStageShaderVariables\\\":16,\\\"maxSampledTexturesPerShaderStage\\\":16,\\\"maxSamplersPerShaderStage\\\":16,\\\"maxStorageBufferBindingSize\\\":2147483644,\\\"maxStorageBuffersPerShaderStage\\\":8,\\\"maxStorageTexturesPerShaderStage\\\":8,\\\"maxTextureArrayLayers\\\":256,\\\"maxTextureDimension1D\\\":8192,\\\"maxTextureDimension2D\\\":8192,\\\"maxTextureDimension3D\\\":2048,\\\"maxUniformBufferBindingSize\\\":65536,\\\"maxUniformBuffersPerShaderStage\\\":12,\\\"maxVertexAttributes\\\":16,\\\"maxVertexBufferArrayStride\\\":2048,\\\"maxVertexBuffers\\\":8,\\\"minStorageBufferOffsetAlignment\\\":256,\\\"minUniformBufferOffsetAlignment\\\":256},\\\"getPreferredCanvasFormat\\\":\\\"bgra8unorm\\\",\\\"info\\\":{\\\"architecture\\\":\\\"gcn-5\\\",\\\"description\\\":\\\"\\\",\\\"device\\\":\\\"\\\",\\\"vendor\\\":\\\"amd\\\"}}\""
+            },
+            "recoverCount": "",
+            "lastStartTime": "2024-03-04 20:01:55",
+            "proxy": {
+                "id": 259252903,
+                "name": "Vodafone",
+                "status": 1,
+                "ip": "31.144.181.153",
+                "country": "UA"
+            },
+            "sorting_name": "A.Yana #0000008334 - Виктория Балашова",
+            "macAddress": {
+                "mode": "off",
+                "value": null
+            },
+            "deviceName": {
+                "mode": "off",
+                "value": null
+            },
+            "tags": [
+                "Саморег"
+            ],
+            "tags_with_separator": [
+                "Саморег"
+            ],
+            "pinned": false,
+            "folder": ""
+        },
+        {
+            "id": 256560797,
+            "userId": 1986981,
+            "teamId": 1933738,
+            "name": "A.Yana #8325 - Аделина Дружинина",
+            "platform": "windows",
+            "browserType": "anty",
+            "proxyId": 259252903,
+            "mainWebsite": "facebook",
+            "useragent": {
+                "mode": "manual",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            },
+            "webrtc": {
+                "mode": "altered",
+                "ipAddress": null
+            },
+            "canvas": {
+                "mode": "real"
+            },
+            "webgl": {
+                "mode": "real"
+            },
+            "webglInfo": {
+                "mode": "manual",
+                "vendor": "Google Inc. (AMD)",
+                "renderer": "ANGLE (AMD, AMD Radeon R6 Graphics Direct3D11 vs_5_0 ps_5_0, D3D11)"
+            },
+            "clientRect": {
+                "mode": "real"
+            },
+            "notes": {
+                "content": "<p></p>",
+                "color": "yellow",
+                "style": "text",
+                "icon": null
+            },
+            "timezone": {
+                "mode": "auto",
+                "value": null
+            },
+            "locale": {
+                "mode": "auto",
+                "value": null
+            },
+            "totalSessionDuration": 2329,
+            "userFields": "",
+            "geolocation": {
+                "mode": "auto",
+                "latitude": null,
+                "longitude": null
+            },
+            "doNotTrack": false,
+            "args": [],
+            "cpu": {
+                "mode": "manual",
+                "value": 16
+            },
+            "memory": {
+                "mode": "manual",
+                "value": 8
+            },
+            "screen": {
+                "mode": "real",
+                "resolution": null
+            },
+            "ports": {
+                "mode": "protect",
+                "blacklist": "3389,5900,5800,7070,6568,5938"
+            },
+            "tabs": "",
+            "created_at": "2024-01-23 16:08:51",
+            "updated_at": "2024-03-04 22:53:15",
+            "deleted_at": "",
+            "platformName": "",
+            "cpuArchitecture": "",
+            "osVersion": "",
+            "screenWidth": "",
+            "screenHeight": "",
+            "connectionDownlink": 0,
+            "connectionEffectiveType": "",
+            "connectionRtt": 0,
+            "connectionSaveData": 0,
+            "vendorSub": "",
+            "productSub": "",
+            "vendor": "",
+            "product": "",
+            "appCodeName": "",
+            "mediaDevices": {
+                "mode": "real",
+                "audioInputs": null,
+                "videoInputs": null,
+                "audioOutputs": null
+            },
+            "datadirHash": null,
+            "cookiesHash": null,
+            "storagePath": "6f204af1f05f54da60906dcbfd3e404ce4ceaf88bc71e0c54eb4f736645bb9aa/9aa635177f61374c81d2ec74b22d2f7d669adbd2da0f451c01f1e4186107362d/9aa635177f61374c81d2ec74b22d2f7d669adbd2da0f451c01f1e4186107362d",
+            "platformVersion": "10.0.0",
+            "extensionsNewNaming": 1,
+            "archived": 0,
+            "webgl2Maximum": "",
+            "login": "",
+            "password": "",
+            "sortingName": "A.Yana #0000008325 - Аделина Дружинина",
+            "addedSortingName": 1,
+            "access": {
+                "view": 1,
+                "update": 1,
+                "delete": 1,
+                "share": 1,
+                "usage": 1
+            },
+            "transfer": 0,
+            "webgpu": {
+                "mode": "manual",
+                "value": "\"{\\\"limits\\\":{\\\"maxBindGroups\\\":4,\\\"maxBindingsPerBindGroup\\\":640,\\\"maxBufferSize\\\":2147483648,\\\"maxColorAttachmentBytesPerSample\\\":32,\\\"maxColorAttachments\\\":8,\\\"maxComputeInvocationsPerWorkgroup\\\":1024,\\\"maxComputeWorkgroupSizeX\\\":1024,\\\"maxComputeWorkgroupSizeY\\\":1024,\\\"maxComputeWorkgroupSizeZ\\\":64,\\\"maxComputeWorkgroupStorageSize\\\":32768,\\\"maxComputeWorkgroupsPerDimension\\\":65535,\\\"maxDynamicStorageBuffersPerPipelineLayout\\\":8,\\\"maxDynamicUniformBuffersPerPipelineLayout\\\":10,\\\"maxInterStageShaderComponents\\\":60,\\\"maxInterStageShaderVariables\\\":16,\\\"maxSampledTexturesPerShaderStage\\\":16,\\\"maxSamplersPerShaderStage\\\":16,\\\"maxStorageBufferBindingSize\\\":2147483647,\\\"maxStorageBuffersPerShaderStage\\\":8,\\\"maxStorageTexturesPerShaderStage\\\":8,\\\"maxTextureArrayLayers\\\":256,\\\"maxTextureDimension1D\\\":8192,\\\"maxTextureDimension2D\\\":8192,\\\"maxTextureDimension3D\\\":2048,\\\"maxUniformBufferBindingSize\\\":65536,\\\"maxUniformBuffersPerShaderStage\\\":12,\\\"maxVertexAttributes\\\":16,\\\"maxVertexBufferArrayStride\\\":2048,\\\"maxVertexBuffers\\\":8,\\\"minStorageBufferOffsetAlignment\\\":256,\\\"minUniformBufferOffsetAlignment\\\":256},\\\"getPreferredCanvasFormat\\\":\\\"bgra8unorm\\\",\\\"info\\\":{\\\"architecture\\\":\\\"gcn-3\\\",\\\"description\\\":\\\"\\\",\\\"device\\\":\\\"\\\",\\\"vendor\\\":\\\"amd\\\"}}\""
+            },
+            "recoverCount": "",
+            "lastStartTime": "2024-03-04 20:04:51",
+            "proxy": {
+                "id": 259252903,
+                "name": "Vodafone",
+                "status": 1,
+                "ip": "31.144.181.153",
+                "country": "UA"
+            },
+            "sorting_name": "A.Yana #0000008325 - Аделина Дружинина",
+            "macAddress": {
+                "mode": "off",
+                "value": null
+            },
+            "deviceName": {
+                "mode": "off",
+                "value": null
+            },
+            "tags": [
+                "Саморег"
+            ],
+            "tags_with_separator": [
+                "Саморег"
+            ],
+            "pinned": false,
+            "folder": ""
+        },
+        {
+            "id": 146866755,
+            "userId": 1986981,
+            "teamId": 1933738,
+            "name": "mustage_s1 #5138 - Ульяна Шаталова",
+            "platform": "windows",
+            "browserType": "anty",
+            "proxyId": 259252903,
+            "mainWebsite": "facebook",
+            "useragent": {
+                "mode": "manual",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+            },
+            "webrtc": {
+                "mode": "altered",
+                "ipAddress": null
+            },
+            "canvas": {
+                "mode": "real"
+            },
+            "webgl": {
+                "mode": "real"
+            },
+            "webglInfo": {
+                "mode": "manual",
+                "vendor": "Google Inc. (AMD)",
+                "renderer": "ANGLE (AMD, AMD Radeon(TM) Graphics Direct3D11 vs_5_0 ps_5_0, D3D11)",
+                "webgl2Maximum": "{\"UNIFORM_BUFFER_OFFSET_ALIGNMENT\":256,\"MAX_TEXTURE_SIZE\":16384,\"MAX_VIEWPORT_DIMS\":[32767,32767],\"MAX_VERTEX_ATTRIBS\":16,\"MAX_VERTEX_UNIFORM_VECTORS\":4096,\"MAX_VARYING_VECTORS\":30,\"MAX_COMBINED_TEXTURE_IMAGE_UNITS\":32,\"MAX_VERTEX_TEXTURE_IMAGE_UNITS\":16,\"MAX_TEXTURE_IMAGE_UNITS\":16,\"MAX_FRAGMENT_UNIFORM_VECTORS\":1024,\"MAX_CUBE_MAP_TEXTURE_SIZE\":16384,\"MAX_RENDERBUFFER_SIZE\":16384,\"MAX_3D_TEXTURE_SIZE\":2048,\"MAX_ELEMENTS_VERTICES\":2147483647,\"MAX_ELEMENTS_INDICES\":2147483647,\"MAX_TEXTURE_LOD_BIAS\":2,\"MAX_DRAW_BUFFERS\":8,\"MAX_FRAGMENT_UNIFORM_COMPONENTS\":4096,\"MAX_VERTEX_UNIFORM_COMPONENTS\":16384,\"MAX_ARRAY_TEXTURE_LAYERS\":2048,\"MIN_PROGRAM_TEXEL_OFFSET\":-8,\"MAX_PROGRAM_TEXEL_OFFSET\":7,\"MAX_VARYING_COMPONENTS\":120,\"MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS\":4,\"MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS\":120,\"MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS\":4,\"MAX_COLOR_ATTACHMENTS\":8,\"MAX_SAMPLES\":8,\"MAX_VERTEX_UNIFORM_BLOCKS\":12,\"MAX_FRAGMENT_UNIFORM_BLOCKS\":12,\"MAX_COMBINED_UNIFORM_BLOCKS\":24,\"MAX_UNIFORM_BUFFER_BINDINGS\":24,\"MAX_UNIFORM_BLOCK_SIZE\":65536,\"MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS\":212992,\"MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS\":200704,\"MAX_VERTEX_OUTPUT_COMPONENTS\":120,\"MAX_FRAGMENT_INPUT_COMPONENTS\":120,\"MAX_ELEMENT_INDEX\":4294967294}"
+            },
+            "clientRect": {
+                "mode": "real"
+            },
+            "notes": {
+                "content": "<p></p>",
+                "color": "green",
+                "style": "text",
+                "icon": "info"
+            },
+            "timezone": {
+                "mode": "auto",
+                "value": null
+            },
+            "locale": {
+                "mode": "auto",
+                "value": null
+            },
+            "totalSessionDuration": 95585,
+            "userFields": "",
+            "geolocation": {
+                "mode": "auto",
+                "latitude": null,
+                "longitude": null,
+                "accuracy": null
+            },
+            "doNotTrack": false,
+            "args": [],
+            "cpu": {
+                "mode": "manual",
+                "value": 12
+            },
+            "memory": {
+                "mode": "manual",
+                "value": 4
+            },
+            "screen": {
+                "mode": "real",
+                "resolution": "1920x1080"
+            },
+            "ports": {
+                "mode": "protect",
+                "blacklist": "3389,5900,5800,7070,6568,5938"
+            },
+            "tabs": [
+                "https://www.facebook.com/off_facebook_activity"
+            ],
+            "created_at": "2023-09-02 16:41:05",
+            "updated_at": "2024-03-04 22:53:15",
+            "deleted_at": "",
+            "platformName": "Win32",
+            "cpuArchitecture": "amd64",
+            "osVersion": 10,
+            "screenWidth": "",
+            "screenHeight": "",
+            "connectionDownlink": "",
+            "connectionEffectiveType": "",
+            "connectionRtt": "",
+            "connectionSaveData": "",
+            "vendorSub": "",
+            "productSub": 20030107,
+            "vendor": "Google Inc.",
+            "product": "Gecko",
+            "appCodeName": "Mozilla",
+            "mediaDevices": {
+                "mode": "real",
+                "audioInputs": 1,
+                "videoInputs": 3,
+                "audioOutputs": 2
+            },
+            "datadirHash": "9b50d39cebbff6ade6336b295d41adda",
+            "cookiesHash": null,
+            "storagePath": "39500be060814461f92a8f5289ef322697f9da5c3f02e48d513ebe5e24a19533/8c96d3a30efd35bda86bb42bc66a5edbe5e717641f2ab30c70f17af076922152/8c96d3a30efd35bda86bb42bc66a5edbe5e717641f2ab30c70f17af076922152",
+            "platformVersion": "15.0.0",
+            "extensionsNewNaming": 1,
+            "archived": 0,
+            "webgl2Maximum": "",
+            "login": "remesnik2853@mustagemail.site",
+            "password": "ujhjgh",
+            "sortingName": "mustage_s0000000001 #0000005138 - Ульяна Шаталова",
+            "addedSortingName": 1,
+            "access": {
+                "view": 1,
+                "update": 1,
+                "delete": 1,
+                "share": 1,
+                "usage": 1
+            },
+            "transfer": 0,
+            "webgpu": {
+                "mode": "manual",
+                "value": "\"{\\\"limits\\\":{\\\"maxBindGroups\\\":4,\\\"maxBindingsPerBindGroup\\\":640,\\\"maxBufferSize\\\":2147483648,\\\"maxColorAttachmentBytesPerSample\\\":32,\\\"maxColorAttachments\\\":8,\\\"maxComputeInvocationsPerWorkgroup\\\":1024,\\\"maxComputeWorkgroupSizeX\\\":1024,\\\"maxComputeWorkgroupSizeY\\\":1024,\\\"maxComputeWorkgroupSizeZ\\\":64,\\\"maxComputeWorkgroupStorageSize\\\":32768,\\\"maxComputeWorkgroupsPerDimension\\\":65535,\\\"maxDynamicStorageBuffersPerPipelineLayout\\\":8,\\\"maxDynamicUniformBuffersPerPipelineLayout\\\":10,\\\"maxInterStageShaderComponents\\\":60,\\\"maxInterStageShaderVariables\\\":16,\\\"maxSampledTexturesPerShaderStage\\\":16,\\\"maxSamplersPerShaderStage\\\":16,\\\"maxStorageBufferBindingSize\\\":2147483647,\\\"maxStorageBuffersPerShaderStage\\\":8,\\\"maxStorageTexturesPerShaderStage\\\":8,\\\"maxTextureArrayLayers\\\":256,\\\"maxTextureDimension1D\\\":8192,\\\"maxTextureDimension2D\\\":8192,\\\"maxTextureDimension3D\\\":2048,\\\"maxUniformBufferBindingSize\\\":65536,\\\"maxUniformBuffersPerShaderStage\\\":12,\\\"maxVertexAttributes\\\":16,\\\"maxVertexBufferArrayStride\\\":2048,\\\"maxVertexBuffers\\\":8,\\\"minStorageBufferOffsetAlignment\\\":256,\\\"minUniformBufferOffsetAlignment\\\":256},\\\"getPreferredCanvasFormat\\\":\\\"bgra8unorm\\\",\\\"info\\\":{\\\"architecture\\\":\\\"gcn-5\\\",\\\"description\\\":\\\"\\\",\\\"device\\\":\\\"\\\",\\\"vendor\\\":\\\"amd\\\"}}\""
+            },
+            "recoverCount": "",
+            "lastStartTime": "2024-03-04 21:32:10",
+            "proxy": {
+                "id": 259252903,
+                "name": "Vodafone",
+                "status": 1,
+                "ip": "31.144.181.153",
+                "country": "UA"
+            },
+            "sorting_name": "mustage_s0000000001 #0000005138 - Ульяна Шаталова",
+            "macAddress": {
+                "mode": "off",
+                "value": null
+            },
+            "deviceName": {
+                "mode": "off",
+                "value": null
+            },
+            "tags": [
+                "Кинг"
+            ],
+            "tags_with_separator": [
+                "Кинг"
+            ],
+            "pinned": false,
+            "folder": ""
+        }
+    ],
+    "first_page_url": "https://dolphin-anty-api.com/browser_profiles?page=1",
+    "from": 1,
+    "next_page_url": null,
+    "path": "https://dolphin-anty-api.com/browser_profiles",
+    "per_page": 100,
+    "prev_page_url": null,
+    "to": 9,
+    "last_page": 1,
+    "total": 9
+}

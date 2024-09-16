@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}Scrapper - Parser News{% endblock %}
+
+{% block header %}
+    Scrapper Header Content
+{% endblock %}
+
+{% block content %}
+    <div class="flex-container">
+        <div class="flex-item column">
+            <div class="flex-item">
+                <button id="btn-transfer">Transfer</button>
+            </div>
+
+            <div class="flex-item">
+                <div id="example-table"></div>
+            </div>
+        </div>
+
+        <div class="flex-item column">
+            <h4 class="ta-align">Tasks</h4>
+            <div>
+                <div class="tasks-panel">
+                    <label>
+                        Search Request
+                        <input type="text" id="search-request">
+                    </label>
+
+                    <select name="num" id="num">
+                        <option value="2">2</option>
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                      </select>
+
+                    <button id="create-task">Create</button>
+                </div>
+            </div>    
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    {% block extra_scripts %}
+        <script type="module" src="{{ url_for('static', filename='scrapper.js') }}"></script>
+        <link href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet">
+        <script type="text/javascript" src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
+    {% endblock %}
+{% endblock %}

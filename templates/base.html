@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Parser News{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base-styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    {% block scripts %}
+        {{ super() }}
+        {% block extra_scripts %}{% endblock %}
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <h1 id="header-title">Parser News</h1>
+        <button id="toggle-sidebar">Toggle Sidebar</button>
+        {% block header %}{% endblock %}
+    </header>
+    <div id="container">
+        <aside id="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="/main">Main</a></li>
+                <li><a href="/scrapper">Scrapper</a></li>
+                <li><a href="/parser">Parser</a></li>
+                <li><a href="/poster">Poster</a></li>
+            </ul>
+        </aside>
+        <main id="content">
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='base-script.js') }}"></script>
+
+    
+</body>
+</html>

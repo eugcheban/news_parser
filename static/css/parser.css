@@ -1,0 +1,53 @@
+#urlFrame {
+    width: 100%;
+    height: 60vh;
+    border: none;
+}
+#jquery-result {
+    width: 100%;
+    height: 20vh;
+    border: 1px solid #ccc;
+    overflow: auto;
+    padding: 10px;
+}
+.news-container {
+    display: flex;
+    flex-direction: column;
+
+}
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+.flex-container button {
+    margin: 5px;
+    min-width: 50px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+}
+.block {
+    display: block;
+    width: 100%;
+}
+#editor {
+    max-height: 660px;
+}
+.jquery-version-panel {
+    display: grid;
+}
+.post-settings {
+    display: grid;
+    margin-left: 10px;
+}
+#telegraph{
+    min-width: 500px;
+}
+
+.html-content {
+    height: 600px;
+    width: 400px;
+}

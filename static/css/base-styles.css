@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #777;
+}
+
+#container {
+    display: flex;
+}
+
+aside {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+aside.hidden {
+    transform: translateX(-100%);
+}
+
+#content {
+    flex: 1;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+.flex-item {
+    display: flex;
+    margin: 10px;
+}
+
+#header-title {
+    cursor: pointer;
+}
+.module-header {
+    color: azure;
+}
+.CodeMirror {
+    width: 100%;
+}
+.column {
+    display: table-column;
+}
+.ta-align {
+    text-align: center;
+}

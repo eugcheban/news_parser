@@ -1,0 +1,8 @@
+selenium
+flask
+flask_sqlalchemy
+webdriver_manager
+psycopg2-binary
+flask_sqlalchemy
+requests
+bs4
