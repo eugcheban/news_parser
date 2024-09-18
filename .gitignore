@@ -1,5 +1,5 @@
 __pycache__/
+**/__pycache__/
 .env
-link_example2.html
-result_34.html
-news_parser
+*.html
+news_parser/
