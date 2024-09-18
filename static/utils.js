@@ -1,21 +1,27 @@
-export async function createTable({table_id = "#example-table", columns, data}) {
+// Define the jQuery code for each version
+const codeVersions = {
+    version_1: `find('h1').text();`,
+    version_2: "console.log('This is version 2');"
+};
+
+export async function createTable({ table_id = "#example-table", columns, data }) {
     var table = new Tabulator(table_id, {
         data: data,           // Используем полученные данные
-        layout:"fitColumns",      //fit columns to width of table
-        responsiveLayout:"hide",  //hide columns that don't fit on the table
-        addRowPos:"top",          //when adding a new row, add it to the top of the table
-        history:true,             //allow undo and redo actions on the table
-        pagination:"local",       //paginate the data
-        paginationSize:30,         //allow 7 rows per page of data
-        paginationCounter:"rows", //display count of paginated rows in footer
-        movableColumns:true,      //allow column order to be changed
-        initialSort:[             //set the initial sort order of the data
-            {column:"name", dir:"asc"},
+        layout: "fitColumns",      //fit columns to width of table
+        responsiveLayout: "hide",  //hide columns that don't fit on the table
+        addRowPos: "top",          //when adding a new row, add it to the top of the table
+        history: true,             //allow undo and redo actions on the table
+        pagination: "local",       //paginate the data
+        paginationSize: 30,         //allow 7 rows per page of data
+        paginationCounter: "rows", //display count of paginated rows in footer
+        movableColumns: true,      //allow column order to be changed
+        initialSort: [             //set the initial sort order of the data
+            { column: "name", dir: "asc" },
         ],
-        columnDefaults:{
-            tooltip:true,         //show tool tips on cells
+        columnDefaults: {
+            tooltip: true,         //show tool tips on cells
         },
-        columns:columns
+        columns: columns
     });
     return table
 }
@@ -54,4 +60,10 @@ export function getDataFromTable(table) {
 
 export function getLastActiveRow() {
     return lastActiveRow;
+}
+
+export function updateTextarea() {
+    const selectedVersion = $('#jquery-variation').val();
+
+    editor.setValue(codeVersions[selectedVersion]);
 }

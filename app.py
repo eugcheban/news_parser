@@ -88,13 +88,13 @@ def scrapper_request():
     search_request = data.get('search_request')
     num = data.get('num')
 
-    dolp = Dolphin()
-    dolp.run_profile()
-    automation_params = dolp.automation
+    driver = Driver()
 
-    driver = Driver(automation_params['port'])
-    google_result = driver.goToPage(f'https://www.google.com/search?q={search_request}&tbm=nws&hl=en&num={num}&tbs=qdr:d')
-
+    try:
+        google_result = driver.goToPage(f'https://www.google.com/search?q={search_request}&tbm=nws&hl=en&num={num}&tbs=qdr:d')
+    except Exception as e:
+        return jsonify({'type': 'error', 'message': str(e)})
+    
     soup_t = Soup(google_result)
     links = soup_t.parseLinks()
     
@@ -113,9 +113,7 @@ def scrapper_request():
             search_request=search_request
         )
         
-
     driver.close_driver()
-    dolp.stop_profile()
     return jsonify({'type': 'success', 'message': 'Request has been proceed!'})
 
 @app.route('/scrapper-transfer', methods=['POST'])
@@ -208,13 +206,12 @@ def proxy():
 #=============================================================
 
 if __name__ == '__main__':
+    #before using app, should be create db structure
+    #seed_data() - for development
+
     #delete_db_structure(app, db)
-    #create_db_structure(app, db)
+    #create_db_structure(app, db) 
     with app.app_context():
-        #print(updateDomen('db-02.com', 'db-03.com'))
-        #createScrapperLink('db-02.com', 'https://google.com/22343')
-        #deleteScrapperLink('https://google.com/22343')
-        #print(get_num_handledScrapperLinks())
         #seed.seed_data()
         pass
     

@@ -2,7 +2,8 @@ import {
     createTable, 
     getTableData, 
     refreshTableData, 
-    getLastActiveRow 
+    getLastActiveRow,
+    updateTextarea
 } from "./utils.js";
 
 window.last_clicked_row = {}
@@ -11,7 +12,19 @@ window.editor = undefined
 window.postEditor = undefined
 
 var lastActiveRow;
+const default_EditorMessage = `//An HTML page is represented as a jQuery object to which jQuery methods can be applied to parse and manipulate data. 
 
+//You can save your jQuery code for each domen (variations on development). The result will be applied for text editor after Run button be clicked. 
+
+find('p');                    // Finds all <p> elements
+find('h1').text();            // Gets the text of the first <h1>
+find('img').attr('src');      // Gets the value of the src attribute of the first <img>
+find('li').filter('.active'); // Finds all <li>s with class .active
+find('div').length;           // Counts the number of <div> elements
+find('.content').html();      // Gets HTML from an element with class .content
+
+text() method should be applied for each founded element that must showed in editor.
+`
 
 $(document).ready(async function() {
     console.log('Parser JS document ready!')
@@ -22,6 +35,7 @@ $(document).ready(async function() {
         lineNumbers: true
     });
 
+    editor.setValue(default_EditorMessage)
     postEditor = new Quill('#postEditor', {
         theme: 'snow'
     });
@@ -49,17 +63,23 @@ $(document).ready(async function() {
     table.on("rowClick", function(e, row){
         //e - the click event object
         //row - row component
+
         last_clicked_row = row
         var instruction = row._row.data.instruction
             
         if (instruction !== null) {
             editor.setValue(instruction)
         } else {
-            editor.setValue(
-`iframeContent.find('.class').each(function() {
-    // your parse code here
-});`
-            )
+            editor.setValue(default_EditorMessage)
+        }
+    });
+
+    table.on("rowSelectionChanged", function(data) {
+        const selectedRows = table.getSelectedData();
+        const selectedCount = selectedRows.length;
+        console.log('selected count ' + selectedCount)
+        if (selectedCount == 0) {
+            editor.setValue('')
         }
     });
 
@@ -94,10 +114,19 @@ $(document).ready(async function() {
     table.on("rowSelected", (row) => {
         lastActiveRow = row.getData();
         console.log("Последняя активная строка:", lastActiveRow);
+        last_clicked_row = row
+        var instruction = row._row.data.instruction
+        editor.setValue(instruction)
     })
     // ==============================================================> Buttons cliks
     // =====
     $('#run-jquery').click(function() {
+        // Получаем выбранные строки
+        const selectedRows = table.getSelectedData();
+
+        // Получаем количество выделенных строк
+        const selectedCount = selectedRows.length;
+
         var html_content = lastActiveRow['html_content'];
         var userCode = editor.getValue()
 
@@ -106,6 +135,9 @@ $(document).ready(async function() {
         console.log(result);
 
         postEditor.setText(result)
+        if (result == None) {
+            alert(`Your code result: {result}`)
+        }
         //insertIntoQuill(quill, content);
     });
 

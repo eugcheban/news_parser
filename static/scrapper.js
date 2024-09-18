@@ -41,18 +41,21 @@ $(document).ready(async function() {
             })
         })
         .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error: code ${response.status}`)
-            }
-            return response.json()
+            return response.json().then(data => {
+                if (!response.ok) {
+                    // Handle non-ok responses (e.g., 4xx, 5xx)
+                    throw new Error(data.message || `HTTP error: code ${response.status}`);
+                }
+                return data;
+            });
         })
         .then(data => {
             console.log(data)
-            console.log(`Command has been processed! ${data}`)
+            console.log(`Command has been processed! ${data.message}`)
             refreshTableData('/api/links')
         })
         .catch(e => {
-            console.log(`Error while updating instruction! ${e}`)
+            console.log(`Error while creating task! ${e}`)
         })
     })
 

@@ -3,6 +3,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.abspath(os.path.join(current_dir, '..'))
 sys.path.append(project_root)
 
+from sqlalchemy.exc import SQLAlchemyError
 from models import db
 from sqlalchemy.exc import IntegrityError
 from models.scrapper_links_model import ScrapperLinks
@@ -69,6 +70,11 @@ def getScrapperLinks():
             print(f"getScrapperLinks: No records found.")
             return None
     except IntegrityError as e:
+        db.session.rollback()
+        print(f"getScrapperLinks: An error occurred while getting links: {e}")
+        return None
+    except SQLAlchemyError as e:
+        # Rollback session on error
         db.session.rollback()
         print(f"getScrapperLinks: An error occurred while getting links: {e}")
         return None
