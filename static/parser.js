@@ -121,25 +121,21 @@ $(document).ready(async function() {
     // ==============================================================> Buttons cliks
     // =====
     $('#run-jquery').click(function() {
-        // Получаем выбранные строки
-        const selectedRows = table.getSelectedData();
-
-        // Получаем количество выделенных строк
-        const selectedCount = selectedRows.length;
-
-        var html_content = lastActiveRow['html_content'];
+		var html_content = lastActiveRow['html_content'];
         var userCode = editor.getValue()
+        var context = $('<div>').html(html_content);
 
-        console.log("userCode:: " + userCode)
-        var result = new Function('context', 'return context.' + userCode)($('<div>').html(html_content));
-        console.log(result);
-
-        postEditor.setText(result)
-        if (result == None) {
-            alert(`Your code result: {result}`)
-        }
-        //insertIntoQuill(quill, content);
-    });
+		try {
+			// Оборачиваем в функцию
+			var func = new Function('context', userCode);
+			var result = func(context);
+			console.log(result);
+		} catch (error) {
+			console.error('Ошибка выполнения пользовательского кода:', error);
+		}
+		
+		postEditor.setText(result)
+	});
 
     $('#post-telegra').click(function() {
         console.log(JSON.stringify({author: getAuthor(), title: getTitle(), content: content}))
