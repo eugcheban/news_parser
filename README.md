@@ -14,7 +14,7 @@ This is a program for collecting news articles based on Google search queries, p
 
 ## How to start
 1. Clone repository
-   `git clone git clone https://github.com/eugcheban/news_parser`
+   `git clone https://github.com/eugcheban/news_parser`
 2. Create environment and install all packages from requirements.txt
    ```
    python -m venv news_parser
