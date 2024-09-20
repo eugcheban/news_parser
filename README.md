@@ -13,6 +13,17 @@ This is a program for collecting news articles based on Google search queries, p
 - Publishing the news to Telegram
 - 
 
+#How to start
+1. Clone repository
+2. Create environment and install all packages from requirements.txt
+3. Create database and username for it, give required privilegies.
+    
+#How to work
+1. Type your search request in tab "Scrapper" search box, click button "Search". (at current moment of development, you can see the process of work in chrome dev tools console, press f12) Then work will be done without any issues, table will update with results, you used to transfer them into parse tab by selecting with checkbox and press button "Transfer".
+2. 
+
+
+
 📓 Sample of .env file
 
 #Database configuration
