@@ -120,6 +120,7 @@ $(document).ready(async function() {
     })
     // ==============================================================> Buttons cliks
     // =====
+    
     $('#run-jquery').click(function() {
 		var html_content = lastActiveRow['html_content'];
         var userCode = editor.getValue()
